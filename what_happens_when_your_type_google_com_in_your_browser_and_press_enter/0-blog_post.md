@@ -24,10 +24,6 @@ The resolver then queries a hierarchy of DNS servers: first a **root server**, t
 
 ---
 
-Here's a simplified diagram of server interaction
-
-![diagram-simplified](img/simplified-scheme.png)
-
 ## 3. Establishing a TCP Connection
 
 To communicate reliably, the browser uses the **TCP (Transmission Control Protocol)** to establish a connection with the server on **port 443**, which is standard for HTTPS. This connection process is called the **3-way handshake**, consisting of three steps:
@@ -57,9 +53,15 @@ GET / HTTP/1.1
 Host: www.google.com
 ```
 
+![diagram-tcp](img/diagram-tcp-ip.png)
+
 This request is encrypted with TLS, then wrapped in TCP/IP packets and sent to Google’s server.
 
 ---
+
+Here's a simplified diagram of server interaction
+
+![diagram-simplified](img/simplified-diagram.png)
 
 ## 6. Load Balancing
 
