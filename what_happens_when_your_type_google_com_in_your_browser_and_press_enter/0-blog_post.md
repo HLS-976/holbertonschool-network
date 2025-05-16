@@ -1,6 +1,4 @@
-# 🔍 What Happens When You Type `https://www.google.com` into Your Browser?
-
-![illustration]
+![presentation](img/presentation.png)
 
 Let’s walk through what actually happens, step by step, when you enter a URL like `https://www.google.com` into your browser and hit Enter.
 
