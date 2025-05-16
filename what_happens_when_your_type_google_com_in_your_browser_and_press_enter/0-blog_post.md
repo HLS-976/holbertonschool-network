@@ -52,8 +52,10 @@ If the certificate is valid, the browser generates a **session key**, which is t
 
 Now that the connection is secure, the browser sends a **HTTPS request**. A typical example might look like this:
 
-exemple
-
+```vbnet
+GET / HTTP/1.1  
+Host: www.google.com
+```
 
 This request is encrypted with TLS, then wrapped in TCP/IP packets and sent to Google’s server.
 
